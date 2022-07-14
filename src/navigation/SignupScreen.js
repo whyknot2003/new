@@ -28,14 +28,14 @@ import { NaverLogin, getProfile } from "@react-native-seoul/naver-login";
 
 // import {appleAuth, AppleButton } from '@invertase/react-native-apple-authentication';
 
-import {
-  KakaoOAuthToken,
-  KakaoProfile,
-  getProfile as getKakaoProfile,
-  login,
-  logout,
-  unlink,
-} from '@react-native-seoul/kakao-login';
+// import {
+//   KakaoOAuthToken,
+//   KakaoProfile,
+//   getProfile as getKakaoProfile,
+//   login,
+//   logout,
+//   unlink,
+// } from '@react-native-seoul/kakao-login';
 
 const win = Dimensions.get('window');
 
@@ -56,10 +56,10 @@ const androidKeys = {
 };
 
 
-const signInWithKakao = async () => {
-  let result = await login();
-  console.log('result' + result);
-};
+// const signInWithKakao = async () => {
+//   let result = await login();
+//   console.log('result' + result);
+// };
 
 const klogin = async () => {
 
@@ -256,9 +256,9 @@ function SignupScreen(){
                 <Image source={require('./assets/facebook.png')}  style={styles.menuItem2} />
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={()=>signInWithKakao()}>
+            {/* <TouchableOpacity onPress={()=>signInWithKakao()}>
                 <Image source={require('./assets/kakao.png')}  style={styles.menuItem2} />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
 
             <TouchableOpacity onPress={()=>onGoogleButtonPress()}>
                 <Image source={require('./assets/google.png')}  style={styles.menuItem2} />
