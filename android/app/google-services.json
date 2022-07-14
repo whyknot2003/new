@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "634535767356",
+    "project_id": "pettime-c7128",
+    "storage_bucket": "pettime-c7128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634535767356:android:f6390572953cd777fe0239",
+        "android_client_info": {
+          "package_name": "com.paekjo.pettime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634535767356-38s1ogngiuav2oc10mtjag8p1ng33luk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paekjo.pettime",
+            "certificate_hash": "e530c6d8983eada81369a365fbacec69e6b2b985"
+          }
+        },
+        {
+          "client_id": "634535767356-mok7p5dcbr6vs7ee1pdem1051q53mv3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxBoK1mTx78nFGmV2fnPu11_UP_JUs06c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634535767356-mok7p5dcbr6vs7ee1pdem1051q53mv3i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "634535767356-23uf8ognb1q8qtncgk8ctmijlsnh654s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.paekjo.pettime"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
