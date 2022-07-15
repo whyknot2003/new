@@ -226,7 +226,7 @@ class CreateActivityScreen extends Component {
         this.state.ac_intro +
         this.state.ac_careful +
         this.state.ac_right,
-
+    )
 
     var formData = new FormData();
     formData.append('ac_name', this.state.ac_name);
@@ -327,7 +327,7 @@ class CreateActivityScreen extends Component {
         <Image
           source={require('./assets/no_avatar.png')}
           style={styles.avatar}
-        />;
+        />
       );
     }
   }
