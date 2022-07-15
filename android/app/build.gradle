@@ -124,9 +124,9 @@ android {
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
-
+//com.pettime 
     defaultConfig {
-        applicationId "com.pettime"
+        applicationId "com.paekjo.pettime"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,4 +1,4 @@
-package com.pettime;
+package com.paekjo.pettime;
 
 import android.app.Application;
 import android.content.Context;

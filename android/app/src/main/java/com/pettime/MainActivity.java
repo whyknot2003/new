@@ -1,4 +1,4 @@
-package com.pettime;
+package com.paekjo.pettime;
 
 import com.facebook.react.ReactActivity;
 
