@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "634535767356-9rgq26h2dd265v39h3302tb8ldka06e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paekjo.pettime",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
           "client_id": "634535767356-mok7p5dcbr6vs7ee1pdem1051q53mv3i.apps.googleusercontent.com",
           "client_type": 3
         }
