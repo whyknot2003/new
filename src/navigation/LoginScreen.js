@@ -130,7 +130,7 @@ checkLogin2 = async(check_email) => {
   console.log(check_email);
       const data1 = { email: check_email};
 
-        return await fetch('http://49.247.37.15' + '/api/chat/checkLogin', {
+        return await fetch('http://10.0.2.2:3000' + '/api/chat/checkLogin', {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {

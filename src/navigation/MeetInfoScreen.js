@@ -54,7 +54,7 @@ class MeetInfoScreen extends Component {
           creator_id: value
         };
 
-        return await fetch('http://49.247.37.15' + '/api/chat/AddChatting2', {
+        return await fetch('http://10.0.2.2:3000' + '/api/chat/AddChatting2', {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {
@@ -101,7 +101,7 @@ class MeetInfoScreen extends Component {
       const data1 = { meet_id: this.props.navigation.getParam('meet_id')
         };
       //const loc_id = this.props.route.params.location_id;
-      return await fetch('http://49.247.37.15' + '/api/chat/getPetChatting2', {
+      return await fetch(`http://10.0.2.2:3000/api/chat/getPetChatting2`, {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {

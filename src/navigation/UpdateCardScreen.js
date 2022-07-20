@@ -53,7 +53,7 @@ class UpdateCardScreen extends Component {
       const data1 = { user_id: value
       };
       //const loc_id = this.props.route.params.location_id;
-      return await fetch('http://49.247.37.15' + '/api/chat/getPetUserBank', {
+      return await fetch('http://10.0.2.2:3000' + '/api/chat/getPetUserBank', {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {
@@ -126,7 +126,7 @@ class UpdateCardScreen extends Component {
           user_id: value
       };
       //const loc_id = this.props.route.params.location_id;
-      return await fetch('http://49.247.37.15' + '/api/chat/AddPetBank', {
+      return await fetch('http://10.0.2.2:3000' + '/api/chat/AddPetBank', {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {

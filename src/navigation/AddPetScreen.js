@@ -76,7 +76,7 @@ class AddPetScreen extends Component {
                         user_sex: this.props.navigation.getParam('user_sex'),
                       };
 
-        return await fetch('http://49.247.37.15' + '/api/chat/regUser', {
+        return await fetch('http://10.0.2.2:3000' + '/api/chat/regUser', {
           method: 'post',
           body: JSON.stringify(data1),
           'headers': {

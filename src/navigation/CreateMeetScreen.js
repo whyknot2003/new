@@ -214,7 +214,7 @@ class CreateMeetScreen extends Component {
                         ac_right: this.state.ac_right,
                         creator_id: value};
 
-        return await fetch('http://49.247.37.15' + '/api/chat/AddPetMeets', {
+        return await fetch('http://10.0.2.2:3000' + '/api/chat/AddPetMeets', {
           method: 'post',
           body: formData,
           'headers': {

@@ -256,7 +256,7 @@ class CreateActivityScreen extends Component {
       creator_id: value,
     };
 
-    return await fetch('http://49.247.37.15' + '/api/chat/AddPetActivities', {
+    return await fetch('http://10.0.2.2:3000' + '/api/chat/AddPetActivities', {
       method: 'post',
       body: formData,
       headers: {

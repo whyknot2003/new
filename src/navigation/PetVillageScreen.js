@@ -79,7 +79,7 @@ class PetVillageScreen extends Component {
     getData = async () => {
       console.log('getting datawow1111111111111111111111111');
       //const loc_id = this.props.route.params.location_id;
-      return await fetch('http://49.247.37.15' + '/api/chat/getPetMeets', {
+      return await fetch('http://10.0.2.2:3000' + '/api/chat/getPetMeets', {
           method: 'post',
           'headers': {
               'Content-Type': 'application/json',
